@@ -60,3 +60,7 @@ gem 'net-imap'
 gem 'net-pop'
 
 gem 'dotenv-rails'
+
+gem 'bootstrap', '5.0.2'
+
+gem 'rails-controller-testing'

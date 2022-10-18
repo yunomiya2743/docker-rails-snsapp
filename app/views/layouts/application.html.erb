@@ -8,9 +8,18 @@
                                'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag    'application',
                                'data-turbolinks-track': 'reload' %>
-  </head>
 
+    <%= stylesheet_pack_tag    'application', media: 'all',
+                               'data-turbolinks-track': 'reload' %>
+    <%= render 'layouts/shim' %>
+  </head>
   <body>
-    <%= yield %>
+    <%= render 'layouts/header' %>
+    <main class="container">
+      <div class="bg-light p-5 mb-4 rounded">
+        <%= yield %>
+      </div>
+      <%= render 'layouts/footer' %>
+    </main>
   </body>
 </html>
