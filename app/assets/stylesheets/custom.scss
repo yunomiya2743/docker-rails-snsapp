@@ -64,35 +64,42 @@ p {
 
 
 /* header */
-
-#logo {
-  float: left;
-  margin-right: 10px;
-  font-size: 1.8em;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: -2px;
-  padding-top: 9px;
-  font-weight: bold;
-  text-decoration: none;
-  &:hover {
-    color: $gray-medium-light;
+header {
+  #logo {
+    float: left;
+    margin-right: 10px;
+    font-size: 1.8em;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    padding-top: 9px;
+    font-weight: bold;
     text-decoration: none;
+    &:hover {
+      color: $gray-medium-light;
+      text-decoration: none;
+    }
   }
-}
 
-#menu {
-  float: left;
-  margin-right: 20px;
-  font-size: 1.2em;
-  color: $gray-medium-light;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  padding-top: 9px;
-  text-decoration: none;
+  #menu {
+    float: left;
+    margin-right: 20px;
+    font-size: 1.2em;
+    color: $gray-medium-light;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding-top: 9px;
+    text-decoration: none;
 
-  &:hover {
-    color: $gray-light;
+    &:hover {
+      color: $gray-light;
+      text-decoration: none;
+    }
+  }
+
+  #dropdown {
+    color: $gray;
+    font-size: 1.1em;
     text-decoration: none;
   }
 }
