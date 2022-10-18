@@ -64,3 +64,9 @@ gem 'dotenv-rails'
 gem 'bootstrap', '5.0.2'
 
 gem 'rails-controller-testing'
+
+gem 'faker'
+
+gem 'will_paginate'
+
+gem 'bootstrap-will_paginate'

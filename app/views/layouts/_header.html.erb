@@ -7,14 +7,14 @@
           <li><%= link_to "Home",   root_path, id: "menu" %></li>
           <li><%= link_to "Help",   help_path, id: "menu" %></li>
           <% if logged_in? %>
-            <li><%= link_to "Users", '#', id: "menu" %></li>
+            <li><%= link_to "Users", users_path, id: "menu" %></li>
             <li class="nav-item dropdown">
               <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="menu">
                 Account <b class="caret"></b>
               </a>
               <ul class="dropdown-menu">
                 <li class="dropdown-item"><%= link_to "Profile", current_user, id: "dropdown" %></li>
-                <li class="dropdown-item"><%= link_to "Settings", '#', id: "dropdown" %></li>
+                <li class="dropdown-item"><%= link_to "Settings", edit_user_path(current_user), id: "dropdown" %></li>
                 <li class="dropdown-divider"></li>
                 <li class="dropdown-item"><%= link_to "Log out", logout_path, method: :delete, id: "dropdown" %>
                 </li>
