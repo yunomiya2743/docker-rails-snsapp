@@ -2,7 +2,7 @@
 <h1>All users</h1>
 
 <div class="pagination col-md-8">
-  <%= will_paginate @users, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>
+  <%= will_paginate @users %>
 </div>
 
 <ul class="users">
@@ -10,5 +10,5 @@
 </ul>
 
 <div class="pagination col-md-8">
-  <%= will_paginate @users, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>
+  <%= will_paginate @users %>
 </div>

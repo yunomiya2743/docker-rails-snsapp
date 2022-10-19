@@ -67,6 +67,10 @@ gem 'rails-controller-testing'
 
 gem 'faker'
 
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog'
+
 gem 'will_paginate'
 
 gem 'will_paginate-bootstrap-style'
