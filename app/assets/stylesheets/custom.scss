@@ -50,7 +50,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   letter-spacing: -1px;
   margin-bottom: 30px;
   text-align: center;
@@ -72,8 +72,9 @@ header {
     font-size: 1.8em;
     color: white;
     text-transform: uppercase;
-    letter-spacing: -2px;
-    padding-top: 9px;
+    letter-spacing: -1px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     font-weight: bold;
     text-decoration: none;
     &:hover {
