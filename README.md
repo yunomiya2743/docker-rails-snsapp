@@ -1,24 +1,23 @@
-# README
+## 概要
+railsチュートリアル(https://railstutorial.jp/) をベースに、なるべく最新の環境を用いて簡易SNSアプリを作成しました。<br>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## やったこと
+Dockerを用いた環境構築<br>
+railsを用いたアプリ作成<br>
+AWSへのデプロイ<br>
 
-Things you may want to cover:
+## バージョン
+Docker 20.10.17,/docker-compose 2.6.1<br>
+Ruby 3.1.2<br>
+Rails 7.0<br>
+Bootstrap 5.1<br>
+MySQL 8.0<br>
 
-* Ruby version
+## 使用ツール
+Visual Studio Code<br>
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 機能
+ユーザー登録・表示・更新・削除<br>
+ログイン・ログアウト<br>
+メッセージの投稿<br>
+ユーザーのフォロー<br>
